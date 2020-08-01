@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1633651283038473435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1633651283038473429}
+  - component: {fileID: 1633651283038473428}
+  m_Layer: 0
+  m_Name: BuidingManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1633651283038473429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633651283038473435}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.390699, y: 1.5427326, z: -1.6948658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1633651283038473428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633651283038473435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2082b7da7dc20242a6de166d935761c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackTower1: {fileID: 11400000, guid: 0cfaeed980212654697a701cb3b0b024, type: 2}
+  attackTower2: {fileID: 11400000, guid: 7bf98adf35c99324f879393c71ea8f28, type: 2}
+  attackTower3: {fileID: 11400000, guid: 6e9ef1df25c869944ab98564b8c74f76, type: 2}
+  attackTower4: {fileID: 11400000, guid: 98024f8f4398c054c90cef2cd6f7957b, type: 2}
+  supportTower1: {fileID: 11400000, guid: 85bd709ffc2259e469ead04b54e7d19b, type: 2}
+  supportTower2: {fileID: 11400000, guid: 0e6b009eef5a3fe4290a25cf60dbce64, type: 2}
+  supportTower3: {fileID: 11400000, guid: f486d12defd11c64c9c0fdbfb5741717, type: 2}
+  supportTower4: {fileID: 11400000, guid: 395a299fa5b23944dbd767750353aba8, type: 2}
+  playerResourceData: {fileID: 11400000, guid: f7ef5bf805576b64ab9bee24e25ce18f, type: 2}
+  upgradeAttackTower1_LEVEL2: {fileID: 11400000, guid: 1bbc49fafa1370c4daa31d74853ebb6e,
+    type: 2}
+  upgradeAttackTower1_LEVEL3: {fileID: 11400000, guid: bb338df877ea0c24dbe4a89139034434,
+    type: 2}
+  upgradeAttackTower2_LEVEL2: {fileID: 11400000, guid: 89f33c45776cbc94283e1459a7c82d46,
+    type: 2}
+  upgradeAttackTower2_LEVEL3: {fileID: 11400000, guid: a50da10e15ab1244382196f448467ac6,
+    type: 2}
+  upgradeAttackTower3_LEVEL2: {fileID: 11400000, guid: 12d4f9e37f8474742b650ca4852048b7,
+    type: 2}
+  upgradeAttackTower3_LEVEL3: {fileID: 11400000, guid: 70a3ffb3cc4c1e043ac1d02e07a0c241,
+    type: 2}
+  upgradeAttackTower4_LEVEL2: {fileID: 11400000, guid: 087df0e50ca42d74c8a0b9da18841cac,
+    type: 2}
+  upgradeAttackTower4_LEVEL3: {fileID: 11400000, guid: 60d3ca91b18e085459bf76de96f8c6d2,
+    type: 2}
+  upgradeSupportTower1_LEVEL2: {fileID: 11400000, guid: cb852553126069b40ad250a3b98dfe67,
+    type: 2}
+  upgradeSupportTower1_LEVEL3: {fileID: 11400000, guid: 24c0173af68333c488d4ac240899775c,
+    type: 2}
+  upgradeSupportTower2_LEVEL2: {fileID: 11400000, guid: 01cafe3fd1c1b7e4fa64700252c9717c,
+    type: 2}
+  upgradeSupportTower2_LEVEL3: {fileID: 11400000, guid: 3922adb4c62a48e458b452c4c5604f40,
+    type: 2}
+  upgradeSupportTower3_LEVEL2: {fileID: 11400000, guid: efe5b31cc880885478f91501324c207d,
+    type: 2}
+  upgradeSupportTower3_LEVEL3: {fileID: 11400000, guid: ef44189b904900f41857ba3017aca788,
+    type: 2}
+  upgradeSupportTower4_LEVEL2: {fileID: 11400000, guid: 0c66252ce55c541418552a66adac43db,
+    type: 2}
+  upgradeSupportTower4_LEVEL3: {fileID: 11400000, guid: 49a5ba8e61a774349966b8430068f1a1,
+    type: 2}

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1671288856211271269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1671288856211271268}
+  - component: {fileID: 1671288856211271267}
+  - component: {fileID: 1671288856211271266}
+  - component: {fileID: 1671288856211271265}
+  - component: {fileID: 1550907862}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1671288856211271268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671288856211271269}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1671288856211271267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671288856211271269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 686017e7754fb944491ae35df357882c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyPrefab: {fileID: 7500972952206382133, guid: d9110a90586efb348b7a6e96860c0d8f,
+    type: 3}
+  _spawnPoint: {fileID: 0}
+  _timeBetweenWaves: 3
+  _countdown: 2
+--- !u!114 &1671288856211271266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671288856211271269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e764e32f3eee89d41a1ec45d0958abe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSlot: {fileID: 0}
+  currentBuildingSlot: {fileID: 0}
+--- !u!114 &1671288856211271265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671288856211271269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e856ed436241894cab55f583246483e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerResourceData: {fileID: 11400000, guid: f7ef5bf805576b64ab9bee24e25ce18f,
+    type: 2}
+  levelGold: 500
+  levelLives: 1
+  _gameOverUI: {fileID: 0}
+--- !u!114 &1550907862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671288856211271269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f841442ec3fbbf4b82e5b1d4a1ebb05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ui: {fileID: 0}
+  sceneFader: {fileID: 0}
+  menuSceneName: MainMenu
